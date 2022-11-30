@@ -46,7 +46,6 @@ export default function ShowTicket() {
     
     async function createCommentFunction(){
       const res = await createComentario(comment);
-      console.log(res)
       if(res.success){
         setCountComment(countComment + 1)
         setComment({
