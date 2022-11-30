@@ -45,12 +45,16 @@ export default function ShowTicket() {
     };
     
     async function createCommentFunction(){
-      const res = createComentario(comment);
-      setCountComment(countComment + 1)
-      setComment({
-        ...comment,
-        content: ""
-      })
+      const res = await createComentario(comment);
+      console.log(res)
+      if(res.success){
+        setCountComment(countComment + 1)
+        setComment({
+          ...comment,
+          content: ""
+        })
+      }
+      
     }
 
       const createCommentHandle = () => {

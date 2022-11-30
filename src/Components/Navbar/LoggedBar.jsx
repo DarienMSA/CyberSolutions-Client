@@ -27,8 +27,6 @@ export default function LoggedBar(props) {
     setAnchorElUser(event.currentTarget);
   };
 
-  console.log(props.user)
-
   const handleCloseNavMenu = page => () => {
     
     setAnchorElNav(null);
