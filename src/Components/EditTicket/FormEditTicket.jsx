@@ -50,7 +50,7 @@ export default function FormEditTicket() {
             </Grid>
 
             <Grid xs={12} mt={5} mb={2}>
-            <Button fullWidth variant='contained' onClick={navigateURL('/')} color={"error"}>Eliminar Inventario</Button>
+            <Button fullWidth variant='contained' onClick={navigateURL('/')} color={"error"}>Eliminar Reporte</Button>
             </Grid>
             </Grid>
         </Grid>

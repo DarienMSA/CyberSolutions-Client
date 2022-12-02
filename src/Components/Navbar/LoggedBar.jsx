@@ -8,8 +8,8 @@ import CookieManagement from '../../Utils/CookieManagement';
 import UserData from '../UserProfile/UserData';
 
 const pages = ['Ver reportes', 'Ver inventario', 'Crear reporte'];
-const settings = ['Perfil', 'Crear usuario', 'Salir'];
-const settingsAdmin = ['Crear sucursal', 'Crear categoría'];
+const settings = ['Perfil', 'Salir'];
+const settingsAdmin = ['Crear sucursal', 'Crear categoría', 'Crear usuario',];
 
 const cookie = new CookieManagement();
 
